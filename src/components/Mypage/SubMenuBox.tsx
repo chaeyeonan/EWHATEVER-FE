@@ -60,6 +60,9 @@ export const Container = styled.div<{ borderRadius?: string }>`
 `;
 
 const ImgContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 25px;
   height: 25px;
 `;
